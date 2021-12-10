@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: BioRhyme;
+    overflow: hidden;
+    color:rgb(26, 66, 63);
+}
+li,a{
+    
+    font-weight: 500;
+    font-size: 25px;
+    color:rgb(26, 66, 63);
+}
+#logo{
+    height: 180px;
+    width:180px;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #94CAD6;
+    height: 130px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.nav-links{
+    list-style: none;
+   
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px ;
+
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    padding: 20px;
+    color:rgb(26, 66, 63);
+}
+.nav-links li a:hover{
+    color:#0088a9
+}
+.main-content{
+  
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+}
+  
+  #left {
+    padding-top: 20px;
+    padding-left: 100px;
+    float: left;
+    
+    width: 30%;
+    height: 100%;
+  }
+  
+  #right {
+    float: right;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .yoga{
+    padding-top: 20px; 
+    padding-left: 100px;
+      height: 200px;
+    
+      display: flex;
+      flex-direction: row;
+  }
+  .muscles{
+    padding-top: 20px; 
+    padding-left: 100px;
+    height: 200px;
+    display: flex;
+      flex-direction: row;
+}
+.diet{
+    padding-top: 20px; 
+    padding-left: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.vl {
+    border-left: 6px solid pink;
+    height: 80px;
+    padding: 20px;
+    
+  }
+.i-img{
+    padding-right: 20px;
+}
